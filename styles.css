@@ -212,6 +212,37 @@ h3 {
     text-decoration: underline;
 }
 
+/* Certifications Page */
+.certifications-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: repeat(2, 1fr);;
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.cert-item {
+    text-align: center;
+}
+
+.cert-img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.cert-item p {
+    font-size: 1.1em;
+    color: #0175ab;
+}
+
+#certifications {
+    padding-bottom: 5em;
+}
+
 /* Responsive CSS */
 @media screen and (max-width:750px) {
     body {
@@ -290,6 +321,15 @@ h3 {
     .project-img {
         margin-right: 0;
         margin-bottom: 10px;
+        max-width: 100%;
+    }
+
+    /* Certification Page */
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cert-img {
         max-width: 100%;
     }
 
