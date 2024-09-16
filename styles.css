@@ -253,6 +253,7 @@ table {
     width: 70%;
     border-collapse: collapse;
     margin: 20px 0;
+    font-size: calc(1.5em - 10px);
 }
 
 th, td {
@@ -394,6 +395,11 @@ button:hover {
 
     .cert-img {
         max-width: 100%;
+    }
+
+    /* Reference Page */
+    #references table {
+        margin: 20px auto;
     }
 
     
