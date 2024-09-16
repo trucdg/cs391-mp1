@@ -191,11 +191,16 @@ h3 {
 }
 
 /* Projects Page */
+#projects {
+    padding-bottom: calc(2em + 50px);
+}
+
 .project {
     display: flex;
     align-items: center;
     padding-bottom: calc(2em + 50px);
 }
+
 .project-img {
     max-width: 200px; /* Adjust as needed */
     margin-right: 20px;
@@ -271,6 +276,36 @@ td a:hover {
     color: #bd1cb3;
 }
 
+/* Calculator */
+#calculator {
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+input {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 100px;
+    margin: 5px;
+    border-radius: 20px;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #007bb5;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #a725c4;
+}
+
 /* Responsive CSS */
 @media screen and (max-width:750px) {
     body {
@@ -343,7 +378,7 @@ td a:hover {
     /* Projects Page */
     .project {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .project-img {
