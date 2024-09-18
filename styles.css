@@ -111,8 +111,12 @@ footer {
     flex: 2;
 }
 
-.main-left > img {
-    width: 100%;
+#profile-pic {
+    width: calc(20vw + 20px);
+}
+
+.main-right > p {
+    font-size: calc(1em + 3px);
 }
 
 /* Education Page */
