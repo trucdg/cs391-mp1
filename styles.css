@@ -1,7 +1,7 @@
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    margin: 10px 20px;
-    padding: 10px 20px;
+    margin: 5px 10px;
+    padding: 10px 10px;
     background-color: #f0f8ff;
     color: #333;
     box-sizing: border-box;
@@ -138,7 +138,7 @@ footer {
 
 .education-cont-left {
     text-align: center;
-    margin-right: 1.5em;
+    padding-right: 2em;
 }
 
 #education-cont p {
@@ -146,13 +146,13 @@ footer {
     color: #4e4d4d;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 #education-cont p em {
     font-style: italic;
     color: #007bb5;
-    margin-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 #education-cont a {
@@ -254,10 +254,10 @@ h3 {
 
 /* References */
 table {
-    width: 70%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 20px 30px;
     font-size: calc(1.5em - 10px);
+    box-sizing: border-box;
 }
 
 th, td {
@@ -372,12 +372,20 @@ button:hover {
     #education-cont > div {
         flex-direction: column;
         text-align: center;
-        padding-left: 0;
         margin-top: 20px;
     }
 
     #education-cont p {
-        font-size: calc(1.3em - 4px);
+        font-size: calc(1em - 4px);
+    }
+
+    .education-cont-left {
+        text-align: center;
+        padding: 0 auto;
+    }
+
+    .education-cont-left > img {
+        width: calc(7em + 20px);
     }
 
     /* Projects Page */
@@ -404,6 +412,7 @@ button:hover {
     /* Reference Page */
     #references table {
         margin: 20px auto;
+        font-size: calc(0.7em - 5px);
     }
 
     
