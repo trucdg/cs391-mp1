@@ -329,10 +329,10 @@ button:hover {
         width: 100%;
         display: flex;
         justify-content: space-around;
+        flex-wrap: nowrap;
         background-color: #e0f7fa;
-        padding: 10px 0;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        font-size: calc(1em - 5px);
+        font-size: calc(0.7em - 5px);
         font-weight: bold;
     }
 
